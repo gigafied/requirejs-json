@@ -31,12 +31,12 @@ define(
 				var file = require.toUrl(name);
 				var val = fs.readFileSync(file).toString();
 
-				val = 'define(' + plugin + '!' + name  + ', function () {\nreturn ' + val + ';\n});\n';
+				val = 'define("' + plugin + '!' + name  + '", function () {\nreturn ' + val + ';\n});\n';
 
 				return val;
 			},
 
-			write: function (pluginName, moduleName, write, config) {
+			write: function (pluginName, moduleName, write) {
 				write(this.loadFromFileSystem(pluginName, moduleName));
 			}
 
