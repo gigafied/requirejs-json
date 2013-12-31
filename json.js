@@ -31,7 +31,7 @@ define(
 				var file = require.toUrl(name);
 				var val = fs.readFileSync(file).toString();
 
-				val = 'define("" + plugin + "!" + name  + "", function () {\nreturn " + val + ";\n});\n';
+				val = 'define(' + plugin + '!' + name  + ', function () {\nreturn ' + val + ';\n});\n';
 
 				return val;
 			},
