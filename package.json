@@ -1,0 +1,23 @@
+{
+  "name": "requirejs-json",
+  "version": "0.0.3",
+  "description": "requirejs-json",
+  "main": "json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwiant/requirejs-json.git"
+  },
+  "keywords": [
+    "requirejs",
+    "json"
+  ],
+  "author": "Taka Kojima <taka@gigafied.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwiant/requirejs-json/issues"
+  },
+  "homepage": "https://github.com/gwiant/requirejs-json#readme"
+}
