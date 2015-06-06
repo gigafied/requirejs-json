@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gwiant/requirejs-json.git"
+    "url": "git+https://github.com/gigafied/requirejs-json.git"
   },
   "keywords": [
     "requirejs",
@@ -17,7 +17,7 @@
   "author": "Taka Kojima <taka@gigafied.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gwiant/requirejs-json/issues"
+    "url": "https://github.com/gigafied/requirejs-json/issues"
   },
-  "homepage": "https://github.com/gwiant/requirejs-json#readme"
+  "homepage": "https://github.com/gigafied/requirejs-json#readme"
 }
